@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+body {
+    background-image: url(images/rome.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-size: 1490px;
+}
+body::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.apropos{
+    
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 0 10%;
+    width: 100%;
+    font-family:'Raleway' ,sans-serif;
+}
+
+.cont{
+    display: block;
+    box-shadow: rgb(192, 151, 46) 0px 5px 15px;
+    width: 75vw;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #111;
+    margin: 30px;
+}
+.title {
+    text-transform: capitalize;
+    margin: 50px 0;
+    font-weight: bold;
+    color:goldenrod;
+    position: relative;
+    margin-left:15px;
+    font-size: 18px;
+    margin-top: -10px;
+
+}
+a.lien{
+    text-align: center;
+    position: relative;
+    left: 43%;
+    border: 1px solid goldenrod;
+    color: wheat;
+    font-size: 14px;
+    padding: 8px 25px;
+    font-weight: bold;
+    text-decoration: 0;
+    top: 7%;
+}
+a.lien:hover{
+    background-color:goldenrod ;
+    color: white;
+}
+.title::after {
+    position: absolute;
+    left: -15px;
+    content: "";
+    height: 100%;
+    background-color: wheat;
+    width: 5px;
+}
+h2 {
+    color: wheat;
+    text-align: center;
+    position:relative;
+    left: -10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 2em;
+}

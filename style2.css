@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(images/rome.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s;
+    
+}
+.cont{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    top: -10%;
+}
+.image{
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: -15vh;
+    left: -15vw;
+    transition: 0.5 ease;
+    z-index: 1;
+}
+.button{
+    font-size: 1.1rem;
+    font-family:'Montserrat' ,sans-serif;
+    font-weight: bold;
+    color: rgba(43,41,32);
+    background-color: rgb(255, 117, 124);
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    width: 320px;
+    height: 3rem;
+    border-radius: 6px;
+    z-index: 100;
+    opacity: 1;
+    position: relative;
+    top: 280px;
+    border: 3px solid rgb(255, 117, 124);
+}
+.button:hover{
+    background-color:rgb(82, 62, 41);
+    border: 3px solid rgb(255, 117, 124);
+    color: white;
+    transition: 0.4s;
+}
+.text{
+    color:rgb(15, 11, 11);
+    font-family:'Raleway' ,sans-serif;
+    line-height: 1rem;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 60%;
+    z-index: 2;
+}
+.logo{
+    color:rgb(255, 117, 124);
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem ;
+    position: relative;
+    right: 35%;
+    text-transform: uppercase;
+    top: -1%;
+}
+.logo .fares{
+    color: white;
+}
+.nav{
+    display: flex;
+    font-size: 1.1rem;
+    width: 500px;
+    margin-bottom: 10%;
+    
+}
+.menu{
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    position: relative;
+    right: -40%;
+}
+.menu:hover{
+    text-decoration: none;
+    color: #ff7200;
+}
+.media{
+    display: flex;
+    width: 350px;
+    margin: auto;
+    position: relative;
+    top: -40%;
+}
+.link{
+    color: wheat;
+    margin: auto;
+    font-size: 1.5em;
+}
+.link:hover{
+    text-decoration: none;
+    color:#ff7200;
+    
+}
+footer{
+    margin: auto;
+}
+.credit{
+    display: block;
+    color: white;
+    font-size: 1rem;
+    opacity: 0.8;
+    text-align: center;
+    position: relative;
+    right: 180%;
+    top: -30%;
+}
+.text h3{
+    font-size: 1.8em;
+    box-shadow: 300px aqua;
+}
+.icon{
+    width: 40px;
+    position: relative;
+    top: 0.3rem;
+}
+.text h2{
+    font-size: 3em;
+}
+.text p{
+    font-size: 1em;
+}
